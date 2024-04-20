@@ -1,0 +1,38 @@
+/* ********** HeroImage ********** */
+.hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image-opacity {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image-title {
+  font-size: 7.5vw;
+  color: var(--white-color);
+}
+
+.hero-image-subtitle {
+  font-size: 1rem;
+  color: var(--white-color);
+  padding: 1rem 0rem 2rem;
+}
+
+#hero-inicio{
+  background-attachment: fixed;
+}
+
+#hero-inicio-opacity{
+  background-color: var(--black-alpha-color);
+}
+
+#hero-testimonials-opacity{
+  background-color: var(--white-alpha-color);
+}
