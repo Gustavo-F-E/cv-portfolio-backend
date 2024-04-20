@@ -60,7 +60,7 @@
     },
     {
       "id": 5,
-      "imagen": "static/core/assets/imagen-generica.png",
+      "imagen": "static/core/assets/imagen-generica2.png",
       "titulo": "Tesis de maestría",
       "descripcion": "Proximamente",
       "cliente": "Instituto sábato",
@@ -71,7 +71,7 @@
     },
     {
       "id": 6,
-      "imagen": "static/core/assets/imagen-generica.png",
+      "imagen": "static/core/assets/imagen-generica2.png",
       "titulo": "Micrografías",
       "descripcion": "Proximamente",
       "cliente": "Instituto Sábato",

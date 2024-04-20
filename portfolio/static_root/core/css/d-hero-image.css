@@ -1,5 +1,6 @@
 /* ********** HeroImage ********** */
 .hero-image {
+  background-image: url(/static/core/assets/dibujo_tecnico.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,6 +27,7 @@
 }
 
 #hero-inicio{
+  background-image: url(/static/core/assets/web-developer3.jpg);
   background-attachment: fixed;
 }
 

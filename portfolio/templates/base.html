@@ -8,7 +8,7 @@
   {% load static %}
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static '/core/css/style.css' %}">
-  <title>Portafolio CV - Gustavo Francisco Eichhorn</title>
+  <title>{% block title %}{% endblock %}</title>
   <meta name="description"
     content="Portafolio Profesional del Ingeniero Mecánico y Desarrollador Web Gustavo Francisco Eichhorn">
   <link rel="icon" type="image/x-icon" href="{% static '/core/assets/portfolio-svgrepo-com.svg' %}">
@@ -40,7 +40,8 @@
   <!-- Hero Image -->
   <!-- ********** -->
   <section id="inicio" class="home">
-    <article id="hero-inicio" class="hero-image" style="background-image: url('{% block background %}{% endblock %}');">
+    <!--article id="hero-inicio" class="hero-image" style="background-image: url('{% block background %}{% endblock %}');"-->
+    <article id="hero-inicio" class="hero-image">
       <aside id="hero-inicio-opacity" class="hero-image-opacity" >
         <div class="hero-image-content">
           <h2 class="hero-image-title">

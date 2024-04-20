@@ -1,6 +1,6 @@
 /* ********** Menu ********** */
 .hamburguer-menu-btn {
-  outline: thin solid var(--white-color);
+  /*outline: thin solid var(--white-color);*/
   border: 0;
   cursor: pointer;
   background-color: var(--second-color);
